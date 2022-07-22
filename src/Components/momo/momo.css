@@ -1,0 +1,132 @@
+
+.pading__ledt__right{
+    padding: 0 20px;
+}
+
+.grid__system-12{
+    display: block;
+    width: 100%;
+    max-width:1200px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.row__system-12{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -6px;
+}
+.comlumn__system-12{
+    max-width: 100%;
+    padding: 0 6px;
+    flex: 0 0 100%;
+}
+.comlumn__system-6{
+    max-width: 50%;
+    padding: 0 6px;
+    flex: 0 0 50%;
+}
+.comlumn__system-8{
+    max-width: 66.67%;
+    padding: 0 6px;
+    flex: 0 0 66.67%;
+}
+.comlumn__system-4{
+    max-width: 33.33%;
+    padding: 0 6px;
+    flex: 0 0 33.33%;
+}
+.header__content{
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+.qr__momo{
+    padding: 0 20px;
+}
+.message__content-momo,.open__content-momo{
+    font-size: 18px;
+    color: rgba(236, 57, 57, 0.7);
+}
+.img__qr-momo{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+.confirm__message{
+    padding: 6px 0;
+    font-size: 18px;
+    color: rgba(23, 186, 31, 0.9);
+
+}
+.confirm{
+    padding: 0 31px;
+    background-color: rgba(215, 220, 220, 0.3);
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px #ccc;
+}
+.confirm__item{
+    font-size: 18px;
+    padding: 4px 0;
+}
+.confirm__item>span{
+    font-weight: 600;
+}
+.img__logo{
+    width: 200px;
+    display: flex;
+    margin: 0 auto;
+}
+.order__details{
+    padding: 0 20px;
+
+}
+.order__details-content{
+    padding: 10px 0;
+    font-size: 25px;
+
+}
+
+.product__total-all{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.product__total-all::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(235, 230, 230);
+}
+
+.product__total-all:last-child:after{
+    display: none;
+}
+.boder__total-all{
+    border-bottom: 1px solid rgb(235, 230, 230);
+}
+
+.product__all,.total__all{
+    font-size: 18px;
+    padding:  5px 0;
+}
+.total__all{
+    font-weight: 600;
+}
+.main{
+    margin-top: 30px
+    ;
+}
+.img_avata{
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    margin-left: 100px;
+}
+.m{
+    margin-bottom: 5px;
+}
+.test{
+    color: blue;
+}

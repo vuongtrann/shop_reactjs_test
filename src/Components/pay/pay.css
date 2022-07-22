@@ -1,0 +1,26 @@
+.momo{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+}
+.grupo1{
+    margin-top: 20px;
+    border: 2px;
+
+    display: block;
+}
+.select{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+}
+.option1{
+ /* background-image: url(https://cdn.sforum.vn/sforum/wp-content/uploads/2021/07/Vi%CC%81-MOMO.jpg); */
+ background-color: aqua;
+}
+select#gender option[value="male"]   { background-image:url(https://cdn.sforum.vn/sforum/wp-content/uploads/2021/07/Vi%CC%81-MOMO.jpg);   }
+/* select#gender option[value="female"] { background-image:url(female.png); }
+select#gender option[value="others"] { background-image:url(others.png); } */
+.radio1{
+    background-image:url(https://cdn.sforum.vn/sforum/wp-content/uploads/2021/07/Vi%CC%81-MOMO.jpg);
+}

@@ -1,0 +1,108 @@
+
+.banner-top{
+    background: url(./image/poster1.png) no-repeat;
+    height: 245px;
+}
+.banner-top h1{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.banner-top h2 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  
+  height: 300px;
+}
+.img-responsive2, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.img-responsive3, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    width: 540px;
+    height: 300px;
+}
+.simpleCart_shelfItem{
+    margin-top: 10px;
+}
+.col-md-3{
+    margin-top: 20px;
+}
+#s{
+    color: red;
+}
+.row{
+    margin-bottom: 20px;
+}
+
+.hinh{
+    margin-right: 10px;
+}
+.banner{
+    background: url(./image/poster3.png) no-repeat right top;
+ 
+   
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    height: 300px;
+    margin: AUTO;
+}
+.login{
+    margin-bottom: 20px;
+}
+.custom {
+    height: 450px;
+    width: 300px;
+}
+.mid-pop {
+    position: relative;
+    border: 1px solid #EFECEC;
+    padding: 10px;
+    height: 500px;
+}
+.col-2 h2 {
+    font-size: 2.5em;
+    line-height: 1.8em;
+    font-family: none;
+}
+.span_2_of_a1 h3 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-family: none;
+}
+h4.quick {
+    color: #000;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-family: none;
+    margin-top: 1em;
+}
+.col-2 span {
+    font-size: 1.4em;
+    color: #F67777;
+    line-height: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: none;
+}
+.content-mid h3 {
+    font-size: 2.5em;
+    color: #000000;
+    line-height: 1.8em;
+    font-family: none;
+    text-align: center;
+}
+.priceAll{
+    color: red;
+  
+}

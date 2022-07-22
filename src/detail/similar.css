@@ -1,0 +1,30 @@
+.item{
+    width: 18rem;
+}
+.price1{
+    font-style: italic;
+    color: black;
+    margin-left: 5px;
+  
+}
+.price2{
+    margin-left: 100px;
+    color: red;
+}
+.mid-1 span {
+    font-size: 1.5em;
+    color: #F67777;
+    line-height: 1.8em;
+    font-family: 'Times New Roman';
+    margin-left: 20px;
+
+}
+.mid-1 h6 {
+    font-size: 1.2em;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+.women-top {
+    float:none;
+    text-align: center;
+}

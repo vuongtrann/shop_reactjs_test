@@ -1,23 +1,23 @@
 import logo from './logo.svg';
-import './App.css';
+//import './App.css';
+
+import Footer from './Components/footer';
+import Content from './Components/content';
+import IconChat from './Components/chat/iconChat';
+import Banner from './Components/banner';
+import DieuHuong from './router/dieuhuong';
+import Header from './Components/header/header';
 
 function App() {
+  let icon=true;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" >
+      <Header/>
+
+         <DieuHuong/>
+       <IconChat/>
+     
+      <Footer/>
     </div>
   );
 }
